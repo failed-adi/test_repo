@@ -1,0 +1,10 @@
+sum = 0
+while(True):
+    userInput = input("enter the price: \n")
+
+    if(userInput !="q"):
+       sum = sum + int(userInput) 
+    else:
+        print("your total bill is",sum )
+        print("thanks for using our calculator")
+        break
